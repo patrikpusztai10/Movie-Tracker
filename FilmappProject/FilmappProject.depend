@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1716230023 source:c:\users\patrik p\downloads\filmappproject\create_account.cpp
+	"header.h"
+
+1716229923 source:c:\users\patrik p\downloads\filmappproject\main.cpp
+	"header.h"
+
+1716230108 c:\users\patrik p\downloads\filmappproject\header.h
+	<iostream>
+	<fstream>
+
