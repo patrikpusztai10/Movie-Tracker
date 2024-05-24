@@ -10,7 +10,9 @@ int main()
     std::cout<<"Choose [1-2]:";
     int num;
     std::cin>>num;
-    if(num==2)
+    if(num==1)
+        user.login_account();
+    else if(num==2)
        user.create_account();
     return 0;
 }
