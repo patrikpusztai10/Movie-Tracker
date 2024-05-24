@@ -1,21 +1,33 @@
 #include"header.h"
-void create_account()
+User::User(std::string username,std::string email,std::string password)
+{
+
+    this->username=username;
+    this->email=email;
+    this->password=password;
+    numberofusers=0;
+}
+void User::create_account()
 {
 std::cout<<std::endl<<std::endl;
     std::string welcome_message="Create account";
     int spaces=(115-welcome_message.size())/2;
-std::ofstream fout;
-fout.open("accounts.csv");
+std::string username,email,password;
 std::cout<<std::endl<<"Enter the following details:"<<std::endl;
-User user;
 std::cout<<"Enter the username:";
-std::cin>>user.username;
+std::cin>>username;
 std::cout<<"Enter the email:";
-std::cin>>user.email;
+std::cin>>email;
 std::cout<<"Enter the pawssord:";
-std::cin>>user.password;
-fout<<user.username<<","
-    <<user.email<<","
-    <<user.password
-    <<"\n";
+std::cin>>password;
+User user{username,email,password};
+user.uprint();
+}
+void User::uprint()
+{  std::ofstream fout("accounts.csv", std::ios::app); // Append mode
+    if (fout.is_open()) {
+        fout << username << ',' << email << ',' << password << std::endl;
+    } else {
+        std::cerr << "Unable to open file" << std::endl;
+    }
 }
