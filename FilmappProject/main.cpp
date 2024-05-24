@@ -1,6 +1,6 @@
 #include "header.h"
 int main()
-{
+{   User user{" "," "," "};
     std::cout<<std::endl<<std::endl;
     std::string welcome_message="Welcome to Filmboxd";
     int spaces=(115-welcome_message.size())/2;
@@ -11,6 +11,6 @@ int main()
     int num;
     std::cin>>num;
     if(num==2)
-       create_account();
+       user.create_account();
     return 0;
 }
