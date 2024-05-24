@@ -11,7 +11,6 @@ public:
 User(std::string,std::string,std::string);
 void create_account();
 void uprint();
-void addUser();
 };
 void create_account();
 void uprint();
