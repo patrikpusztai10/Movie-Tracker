@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1717750182 source:c:\users\patrik p\downloads\filmappproject\create_account.cpp
+	"header.h"
+
+1716990774 source:c:\users\patrik p\downloads\filmappproject\main.cpp
+	"header.h"
+
+1717775920 c:\users\patrik p\downloads\filmappproject\header.h
+	<iostream>
+	<string>
+	<vector>
+	<memory>
+	<fstream>
+	<sstream>
+	<regex>
+	<set>
+	<cstring>
+	<cstdio>
+
+1717777440 source:c:\users\patrik p\downloads\filmappproject\login_account.cpp
+	"header.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+
+1717755799 source:c:\users\patrik p\downloads\filmappproject\menu.cpp
+	"header.h"
+
+1717770993 source:c:\users\patrik p\downloads\filmappproject\add_movie.cpp
+	"header.h"
+
+1717774157 source:c:\users\patrik p\downloads\filmappproject\view_movie.cpp
+	"header.h"
+
+1717777040 source:c:\users\patrik p\downloads\filmappproject\delete_account.cpp
+	"header.h"
+	<fstream>
+	<sstream>
+	<string>
+	<iostream>
+	<cstdio>
+
+1717774085 source:c:\users\patrik p\downloads\filmappproject\view_watchlist.cpp
+	"header.h"
+
+1717828584 source:c:\users\patrik p\downloads\filmappproject\create_folder.cpp
+	"header.h"
+
+1717773161 source:c:\users\patrik p\downloads\filmappproject\delete_movie.cpp
+	"header.h"
+
+1717749286 source:c:\users\patrik p\downloads\filmappproject\view_folder.cpp
+	"header.h"
+
+1717749286 source:c:\users\patrik p\downloads\filmappproject\delete_folder.cpp
+	"header.h"
+
+1717748734 source:c:\users\patrik p\downloads\filmappproject\update_folder.cpp
+
+1717769581 source:c:\users\patrik p\downloads\filmappproject\movie_reccomendation.cpp
+	"header.h"
+
